@@ -1,0 +1,18 @@
+{
+  "name": "app_jsdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "recurseDepth": 10,
+  "keywords": [],
+  "author": "Ruslan Potekhin",
+  "license": "ISC",
+  "source": {
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "sourceType": "module",
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  }
+}

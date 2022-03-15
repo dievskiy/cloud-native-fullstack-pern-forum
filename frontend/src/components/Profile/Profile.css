@@ -1,0 +1,61 @@
+.user-card {
+    background-color: black;
+    color: black;
+}
+
+img {
+    height: 10rem;
+    width: 15rem
+}
+
+.card-header {
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    border: #dee2e6 solid 1px;
+    width: 100%;
+}
+
+.not-editable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: #dee2e6 solid 0;
+}
+
+.card {
+    padding-bottom: 0;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.card-body {
+    max-width: 40rem;
+}
+
+.edit {
+    color: #3993DD;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.card img {
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+.count-data {
+    background-color: #fff;
+}
+
+.count {
+    font-weight: bold;
+    font-size: 1.5rem;
+}

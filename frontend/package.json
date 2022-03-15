@@ -1,0 +1,57 @@
+{
+  "name": "web2-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "react": "^16.13.0",
+    "react-bootstrap": "^2.2.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "3.4.0",
+    "react-validation": "^3.0.7",
+    "validator": "^12.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "webpack",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "doc": "jsdoc -c jsdoc.json -r src -d docs"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "@babel/react",
+      "@babel/env"
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-jsx",
+      "@babel/proposal-class-properties",
+      "@babel/plugin-transform-runtime"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "dotenv": "^16.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jsdoc": "^3.6.10",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

@@ -1,0 +1,127 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+}
+
+textarea {
+    padding: .8rem;
+    border: #dee2e6 solid 1px;
+}
+
+.section {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #ababab;
+}
+
+.selectfilter {
+    padding: 0.2rem;
+    color: #3993DD;
+    font-weight: bold;
+    border: none;
+    text-align: end;
+    outline: 0;
+}
+
+.enabled {
+    color: #000;
+    text-decoration: underline;
+}
+
+.section .disabled {
+    color: rgb(205, 205, 205)
+}
+
+.section:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+.btn-primary {
+    height: 2.7rem;
+    background-color: #3993DD;
+    color: white;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border-color: #3993DD;
+    box-shadow: 0 0 5px #3993DD;
+}
+
+.btn-link {
+    text-decoration: underline;
+}
+
+.basic-form * {
+    max-width: 24.5rem;
+}
+
+
+.btn-link:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    font-size: 1.15rem;
+    height: 5.5rem;
+    background-color: white;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 1.3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.accent {
+    color: #3993DD;
+}
+
+.navbar {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navbar-brand {
+    font-size: 1.65rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.card-container.card {
+    max-width: 350px !important;
+    padding: 40px 40px;
+}
+
+.card {
+    background-color: #f7f7f7;
+    padding: 20px 25px 30px;
+    margin: 50px auto 25px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+}
